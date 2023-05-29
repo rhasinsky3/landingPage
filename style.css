@@ -45,7 +45,7 @@ header .navigation a {
     font-weight: 500;
     letter-spacing: 1px;
     padding: 2px 15px;
-    background-color: #ffffff98;
+    background-color: #03a3ffcf;
     border-radius: 20px;
     transform: 0.3s;
     transition-property: background;
@@ -72,6 +72,11 @@ header .navigation a:hover {
     letter-spacing: 2px;
     line-height: 60px;
     margin-bottom: 30px;
+    padding: 2px 15px;
+    background-color: #03a3ffcf;
+    border-radius: 20px;
+    transform: 0.3s;
+    transition-property: background;
 }
 
 .content .info h2 span {
@@ -88,17 +93,17 @@ header .navigation a:hover {
     letter-spacing: 2px;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #ffffff98;
+    background-color: #03a3ffcf;
 }
 
 .content .info-btn {
-    color: rgb(0, 68, 255);
-    background: #ffffff98;
+    color: #000000;
+    background: #03a3ffcf;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
     transition-property: background;
 }
@@ -116,8 +121,8 @@ header .navigation a:hover {
 
 .media-icons a{
     position: relative;
-    color: #ffffff;
-    font-size: 25px;
+    color: #000;
+    font-size: 40px;
     transition: 0.3s;
     transition-property: transform;
 }
@@ -164,7 +169,7 @@ label {
     #check:checked ~ header .navigation {
         z-index: 2;
         position: fixed;
-        background: #581845cf;
+        background: #03a3ffcf;
         top: 0;
         bottom: 0;
         left: 0;
