@@ -14,7 +14,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(dfc.jpg)no-repeat;
+    background: url(ddd.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -30,8 +30,8 @@ header {
 }
 
 header .logo {
-    position: relative;
-    color: #fbfbfb;
+    text-align: center;
+    color: #000000;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -65,6 +65,7 @@ header .navigation a:hover {
 }
 
 .content .info h2 {
+    text-align: center;
     color: #ffffff;
     font-size: 55px;
     text-transform: uppercase;
@@ -80,36 +81,23 @@ header .navigation a:hover {
 }
 
 .content .info h2 span {
+    text-align: center;
     color: #ffffff;
     font-size: 50px;
     font-weight: 600;
 }
 
 .content .info p {
+    position: relative;
+    text-align: center;
     color: #000000;
     font-size: 20px;
-    font-weight: 500;
     margin-bottom: 40px;
     letter-spacing: 2px;
     padding: 5px 10px;
     border-radius: 5px;
+    font-weight: 500;
     background-color: #03a3ffcf;
-}
-
-.content .info-btn {
-    color: #000000;
-    background: #03a3ffcf;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition-property: background;
-}
-
-.content .info-btn:hover {
-    background: #111dc8;
 }
 
 .media-icons {
@@ -121,7 +109,7 @@ header .navigation a:hover {
 
 .media-icons a{
     position: relative;
-    color: #000;
+    color: rgb(255, 129, 33);
     font-size: 40px;
     transition: 0.3s;
     transition-property: transform;
